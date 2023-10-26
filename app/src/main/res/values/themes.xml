@@ -1,5 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <style name="Base.Theme.MyApp" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:layout_gravity">center_horizontal</item>
     </style>
 
     <style name="Theme.MyApp" parent="Base.Theme.MyApp" />
