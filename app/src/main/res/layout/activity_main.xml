@@ -14,7 +14,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="20sp"
         android:text="themes"
-        android:textAllCaps="true"
         android:textColor="@color/colorFonte"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -26,15 +25,15 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:padding="5dp"
-        android:text="Enviar"
-        android:textAllCaps="true" />
+        android:text="Enviar" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:contentDescription="FAB"
-        android:src="@drawable/baseline_message" />
+        android:src="@drawable/baseline_message"
+        />
 
 
 </LinearLayout>

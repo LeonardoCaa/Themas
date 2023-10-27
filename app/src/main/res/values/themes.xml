@@ -5,6 +5,10 @@
         <item name="textAllCaps">true</item>
         <item name="android:layout_gravity">center_horizontal</item>
     </style>
-
+    <style name="myStyle" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">#2e2e2e</item>
+        <item name="colorSecondary">#512DA8</item>
+        <item name="colorAccent">#212121</item>
+    </style>
     <style name="Theme.MyApp" parent="Base.Theme.MyApp" />
 </resources>
