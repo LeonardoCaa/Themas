@@ -6,9 +6,19 @@
         <item name="android:layout_gravity">center_horizontal</item>
     </style>
     <style name="myStyle" parent="Theme.AppCompat.DayNight.NoActionBar">
-        <item name="colorPrimary">#2e2e2e</item>
+        <item name="colorPrimary">#FFD600</item>
         <item name="colorSecondary">#512DA8</item>
-        <item name="colorAccent">#212121</item>
+        <item name="colorAccent">#DD2C00</item>
+    </style>
+    <style name="MySplash" parent="Theme.AppCompat.DayNight.NoActionBar">
+       <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginBottom">25dp</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">25sp</item>
     </style>
     <style name="Theme.MyApp" parent="Base.Theme.MyApp" />
 </resources>

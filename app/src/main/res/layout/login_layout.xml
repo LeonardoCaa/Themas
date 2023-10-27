@@ -18,9 +18,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10sp"
+        android:drawableEnd="@drawable/baseline_email"
         android:hint="Insira seu e-mail"
         android:inputType="textEmailAddress"
-        android:drawableEnd="@drawable/baseline_email"
         android:padding="20sp" />
 
     <EditText
@@ -36,7 +36,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10sp"
-        android:hint="Esqueceu a senha?" />
+        android:textStyle="italic"
+        android:hint="Esqueceu a senha?"
+        android:gravity="end"/>
 
     <Button
         android:layout_width="wrap_content"
